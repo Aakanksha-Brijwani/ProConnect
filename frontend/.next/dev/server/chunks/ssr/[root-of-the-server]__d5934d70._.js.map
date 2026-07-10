@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":["file:///E:/LinkdinClone/frontend/src/config/redux/store.js"],"sourcesContent":["import { configureStore } from \"@reduxjs/toolkit\"\r\nimport authReducer from \"/reducer/authReducer\"\r\n/**\r\n * \r\n * \r\n * STEPS for State MAnagement\r\n * submit Action\r\n * Handle action in it's reducer\r\n * Register Here -> Reducer\r\n * \r\n * \r\n * \r\n */\r\n\r\n\r\nexport const store = configureStore({\r\n    reducer: {\r\n        // here we will register all the reducers\r\n        auth: authReducer,\r\n    },\r\n});"],"names":[],"mappings":";;;;AAAA;;;;;;;;;;;;AAeO,MAAM,QAAQ,IAAA,iOAAc,EAAC;IAChC,SAAS;QACL,yCAAyC;QACzC,MAAM;IACV;AACJ"}},
+    {"offset": {"line": 35, "column": 0}, "map": {"version":3,"sources":["file:///E:/LinkdinClone/frontend/src/pages/_app.js"],"sourcesContent":["import { store } from \"@/config/redux/store\";\nimport \"@/styles/globals.css\";\nimport { Provider } from \"react-redux\";\n\nexport default function App({ Component, pageProps }) {\n  return(\n    <Provider store = {store}>\n      <Component {...pageProps} />;\n    </Provider>\n  );\n}\n"],"names":[],"mappings":";;;;;AAAA;AAEA;;;;;;;;;;AAEe,SAAS,IAAI,EAAE,SAAS,EAAE,SAAS,EAAE;IAClD,qBACE,qKAAC,yMAAQ;QAAC,OAAS,6IAAK;;0BACtB,qKAAC;gBAAW,GAAG,SAAS;;;;;;YAAI;;;;;;;AAGlC"}}]
+}

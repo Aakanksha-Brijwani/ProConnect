@@ -1,0 +1,211 @@
+/* [project]/frontend/src/components/Navbar/style.module.css [client] (css) */
+.style-module__iJorKq__container {
+  padding: 1.2rem;
+}
+
+.style-module__iJorKq__navBar {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.style-module__iJorKq__navBarOptionContainer {
+  display: flex;
+}
+
+.style-module__iJorKq__buttonJoin {
+  color: #fff;
+  cursor: pointer;
+  background: #cd8987;
+  border-radius: 10px;
+  padding-block: .6rem;
+  padding-inline: 1.2rem;
+  font-size: .7rem;
+  font-weight: bold;
+}
+
+/* [project]/frontend/src/pages/login/style.module.css [client] (css) */
+.style-module__LL_S9a__container {
+  background: snow;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2rem 1rem;
+  display: flex;
+  overflow-y: auto;
+}
+
+.style-module__LL_S9a__cardContainer {
+  background: #fff;
+  border-radius: 10px;
+  width: 80vw;
+  max-width: 1100px;
+  display: flex;
+  overflow: hidden;
+  box-shadow: 10px 10px 15px #adadad;
+}
+
+.style-module__LL_S9a__cardContainer__left {
+  text-align: center;
+  flex: .6;
+  padding: 2rem;
+}
+
+.style-module__LL_S9a__cardleft__heading {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.style-module__LL_S9a__inputField {
+  background: #fff;
+  border: 1px solid #d0d7de;
+  border-radius: 8px;
+  outline: none;
+  width: 100%;
+  padding: 14px 16px;
+  font-size: 15px;
+  transition: all .2s;
+}
+
+.style-module__LL_S9a__inputField:focus {
+  border-color: #0a66c2;
+  box-shadow: 0 0 0 3px #0a66c226;
+}
+
+.style-module__LL_S9a__inputContainers {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  max-width: 400px;
+  margin: 0 auto;
+  padding-top: 1.3rem;
+  display: flex;
+}
+
+.style-module__LL_S9a__inputRow {
+  gap: 1.2rem;
+  width: fit-content;
+  display: flex;
+}
+
+.style-module__LL_S9a__buttonWithOutline {
+  cursor: pointer;
+  background: #ececec;
+  border-radius: 10px;
+  width: 100%;
+  padding: .8rem 1.3rem;
+}
+
+.style-module__LL_S9a__cardContainer__right {
+  color: #fff;
+  background: #00488b;
+  flex-direction: column;
+  flex: .4;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2rem;
+  padding: 1.2rem 1.2rem 3rem;
+  display: flex;
+}
+
+.style-module__LL_S9a__errorInput {
+  box-shadow: 0 0 0 3px #d930251f;
+  border-color: #d93025 !important;
+}
+
+.style-module__LL_S9a__error {
+  color: #d93025;
+  align-items: center;
+  gap: 6px;
+  margin-top: 6px;
+  margin-left: 2px;
+  font-size: 13px;
+  font-weight: 500;
+  animation: .2s style-module__LL_S9a__fadeIn;
+  display: flex;
+}
+
+@keyframes style-module__LL_S9a__fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.style-module__LL_S9a__googleButton {
+  color: #000000bf;
+  cursor: pointer;
+  background: #fff;
+  border: 1px solid #666;
+  border-radius: 999px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  height: 40px;
+  margin-top: 16px;
+  padding: 0 16px;
+  font-size: 14px;
+  font-weight: 600;
+  transition: background-color .15s, border-color .15s;
+  display: flex;
+}
+
+.style-module__LL_S9a__googleButton:hover {
+  background-color: #70b5f91f;
+  border-color: #0a66c2;
+}
+
+.style-module__LL_S9a__googleButton:active {
+  background-color: #70b5f933;
+}
+
+.style-module__LL_S9a__googleButton img, .style-module__LL_S9a__googleButton svg {
+  width: 18px;
+  height: 18px;
+}
+
+.style-module__LL_S9a__inputGroup {
+  flex-direction: column;
+  width: 100%;
+  display: flex;
+}
+
+.style-module__LL_S9a__divider {
+  align-items: center;
+  width: 100%;
+  margin: 4px 0;
+  display: flex;
+}
+
+.style-module__LL_S9a__dividerLine {
+  background: #d0d7de;
+  flex: 1;
+  height: 1px;
+}
+
+.style-module__LL_S9a__dividerText {
+  color: #666;
+  margin: 0 12px;
+  font-size: 13px;
+}
+
+.style-module__LL_S9a__googleButtonWrap {
+  justify-content: center;
+  width: 100%;
+  display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+  .style-module__LL_S9a__cardContainer {
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=frontend_src_cf860e8e._.css.map*/

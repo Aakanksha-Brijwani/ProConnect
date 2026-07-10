@@ -1,0 +1,51 @@
+/* [project]/frontend/src/pages/discover/index.module.css [client] (css) */
+.index-module__DOvhBW__allUserProfile {
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+  max-width: 700px;
+  margin: 20px auto;
+  display: flex;
+}
+
+.index-module__DOvhBW__userCard {
+  box-sizing: border-box;
+  cursor: pointer;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+  padding: 16px;
+  transition: all .2s;
+  display: flex;
+}
+
+.index-module__DOvhBW__userCard:hover {
+  box-shadow: 0 4px 12px #0000001f;
+}
+
+.index-module__DOvhBW__userCard__image {
+  object-fit: cover;
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 60px;
+  height: 60px;
+}
+
+.index-module__DOvhBW__userInfo {
+  flex-direction: column;
+  display: flex;
+}
+
+.index-module__DOvhBW__userInfo h3 {
+  margin: 0;
+}
+
+.index-module__DOvhBW__userInfo p {
+  color: gray;
+  margin: 4px 0 0;
+}
+
+/*# sourceMappingURL=frontend_src_pages_discover_index_module_css_65f1660e._.single.css.map*/

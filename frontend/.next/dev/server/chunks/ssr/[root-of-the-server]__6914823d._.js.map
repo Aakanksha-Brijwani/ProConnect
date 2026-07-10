@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///E:/LinkdinClone/frontend/src/pages/profile/index.jsx"],"sourcesContent":["import React from 'react';\r\nimport UserLayout from '@/components/UserLayout';\r\n\r\nexport default function ProfilePage(){\r\n    return(\r\n        <UserLayout>\r\n            <DashboardLayout>\r\n\r\n            </DashboardLayout>\r\n        </UserLayout>\r\n    )\r\n}"],"names":[],"mappings":";;;;;AAAA;;;;;;;;;AAGe,SAAS;IACpB,qBACI,qKAAC;kBACG,cAAA,qKAAC;;;;;;;;;;AAKb"}}]
+}

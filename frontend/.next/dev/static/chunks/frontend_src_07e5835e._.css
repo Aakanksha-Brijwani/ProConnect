@@ -1,0 +1,148 @@
+/* [project]/frontend/src/components/Navbar/style.module.css [client] (css) */
+.style-module__iJorKq__container {
+  padding: 1.2rem;
+}
+
+.style-module__iJorKq__navBar {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.style-module__iJorKq__navBarOptionContainer {
+  display: flex;
+}
+
+.style-module__iJorKq__buttonJoin {
+  color: #fff;
+  cursor: pointer;
+  background: #cd8987;
+  border-radius: 10px;
+  padding-block: .6rem;
+  padding-inline: 1.2rem;
+  font-size: .7rem;
+  font-weight: bold;
+}
+
+/* [project]/frontend/src/pages/my_connections/index.module.css [client] (css) */
+.index-module__tNS6sW__connectionsContainer {
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+  padding: 25px;
+}
+
+.index-module__tNS6sW__heading {
+  color: #1d2226;
+  margin-bottom: 25px;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.index-module__tNS6sW__userCard {
+  cursor: pointer;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 18px;
+  padding: 18px 22px;
+  transition: all .25s;
+  display: flex;
+}
+
+.index-module__tNS6sW__userCard:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px #00000014;
+}
+
+.index-module__tNS6sW__leftSection {
+  align-items: center;
+  gap: 18px;
+  display: flex;
+}
+
+.index-module__tNS6sW__profilePicture img {
+  object-fit: cover;
+  border: 2px solid #0a66c2;
+  border-radius: 50%;
+  width: 72px;
+  height: 72px;
+}
+
+.index-module__tNS6sW__userInfo h3 {
+  color: #191919;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.index-module__tNS6sW__userInfo p {
+  color: #666;
+  margin: 5px 0;
+  font-size: 15px;
+}
+
+.index-module__tNS6sW__userInfo span {
+  color: #777;
+  font-size: 14px;
+}
+
+.index-module__tNS6sW__buttonGroup {
+  gap: 12px;
+  display: flex;
+}
+
+.index-module__tNS6sW__acceptBtn {
+  color: #fff;
+  cursor: pointer;
+  background: #0a66c2;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 24px;
+  font-weight: 600;
+  transition: all .2s;
+}
+
+.index-module__tNS6sW__acceptBtn:hover {
+  background: #004182;
+}
+
+.index-module__tNS6sW__ignoreBtn {
+  color: #666;
+  cursor: pointer;
+  background: #fff;
+  border: 1px solid #999;
+  border-radius: 20px;
+  padding: 10px 24px;
+  font-weight: 600;
+  transition: all .2s;
+}
+
+.index-module__tNS6sW__ignoreBtn:hover {
+  background: #f3f2ef;
+}
+
+@media (max-width: 768px) {
+  .index-module__tNS6sW__userCard {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+  }
+
+  .index-module__tNS6sW__buttonGroup {
+    width: 100%;
+  }
+
+  .index-module__tNS6sW__acceptBtn, .index-module__tNS6sW__ignoreBtn {
+    flex: 1;
+  }
+
+  .index-module__tNS6sW__profilePicture img {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+/*# sourceMappingURL=frontend_src_07e5835e._.css.map*/

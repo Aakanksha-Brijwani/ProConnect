@@ -1,0 +1,335 @@
+/* [project]/frontend/src/pages/dashboard/index.module.css [client] (css) */
+.index-module__yHrjsW__feed {
+  flex-direction: column;
+  gap: 12px;
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 1.25rem 0;
+  display: flex;
+}
+
+.index-module__yHrjsW__loadingState {
+  color: #888;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  font-size: 15px;
+  display: flex;
+}
+
+.index-module__yHrjsW__composeCard {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 1rem 1.25rem;
+  display: flex;
+}
+
+.index-module__yHrjsW__composeAvatar {
+  object-fit: cover;
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+}
+
+.index-module__yHrjsW__composeInputRow {
+  flex-direction: column;
+  flex: 1;
+  gap: 10px;
+  display: flex;
+}
+
+.index-module__yHrjsW__composeTextarea {
+  resize: none;
+  color: #333;
+  background: #fafafa;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  outline: none;
+  width: 100%;
+  min-height: 60px;
+  padding: 10px 14px;
+  font-family: inherit;
+  font-size: 14px;
+}
+
+.index-module__yHrjsW__composeTextarea:focus {
+  background: #fff;
+  border-color: #0a66c2;
+}
+
+.index-module__yHrjsW__composeActions {
+  align-items: center;
+  gap: 8px;
+  display: flex;
+}
+
+.index-module__yHrjsW__mediaBtn {
+  color: #555;
+  cursor: pointer;
+  background: none;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  font-size: 13px;
+  display: flex;
+}
+
+.index-module__yHrjsW__mediaBtn:hover {
+  background: #f3f2ef;
+}
+
+.index-module__yHrjsW__postBtn {
+  color: #fff;
+  cursor: pointer;
+  background: #0a66c2;
+  border: none;
+  border-radius: 20px;
+  margin-left: auto;
+  padding: 7px 20px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.index-module__yHrjsW__postBtn:hover {
+  background: #004182;
+}
+
+.index-module__yHrjsW__postsContainer {
+  flex-direction: column;
+  gap: 12px;
+  display: flex;
+}
+
+.index-module__yHrjsW__postCard {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.index-module__yHrjsW__postHeader {
+  align-items: flex-start;
+  gap: 10px;
+  padding: 1rem 1.25rem 0;
+  display: flex;
+}
+
+.index-module__yHrjsW__postAvatar {
+  object-fit: cover;
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+}
+
+.index-module__yHrjsW__postMeta {
+  flex: 1;
+}
+
+.index-module__yHrjsW__postName {
+  color: #000;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.index-module__yHrjsW__postUsername {
+  color: #888;
+  margin-top: 1px;
+  font-size: 12px;
+}
+
+.index-module__yHrjsW__deleteBtn {
+  cursor: pointer;
+  color: #c0392b;
+  background: none;
+  border: none;
+  border-radius: 6px;
+  align-items: center;
+  padding: 4px;
+  display: flex;
+}
+
+.index-module__yHrjsW__deleteBtn:hover {
+  background: #fdecea;
+}
+
+.index-module__yHrjsW__postBody {
+  color: #333;
+  padding: .75rem 1.25rem;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.index-module__yHrjsW__postImageWrap {
+  width: 100%;
+  max-height: 400px;
+  overflow: hidden;
+}
+
+.index-module__yHrjsW__postImageWrap img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.index-module__yHrjsW__postActions {
+  border-top: 1px solid #e0e0e0;
+  display: flex;
+}
+
+.index-module__yHrjsW__actionBtn {
+  color: #555;
+  cursor: pointer;
+  background: none;
+  border: none;
+  border-radius: 0;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 4px;
+  font-size: 13px;
+  font-weight: 500;
+  display: flex;
+}
+
+.index-module__yHrjsW__actionBtn:hover {
+  color: #000;
+  background: #f3f2ef;
+}
+
+.index-module__yHrjsW__modalOverlay {
+  z-index: 100;
+  background: #000000a6;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: fixed;
+  inset: 0;
+}
+
+.index-module__yHrjsW__modalPanel {
+  background: #fff;
+  border-radius: 12px;
+  flex-direction: column;
+  width: 480px;
+  max-height: 80vh;
+  display: flex;
+  overflow: hidden;
+}
+
+.index-module__yHrjsW__modalHeader {
+  border-bottom: 1px solid #e0e0e0;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.25rem;
+  display: flex;
+}
+
+.index-module__yHrjsW__modalHeader h2 {
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.index-module__yHrjsW__modalClose {
+  color: #666;
+  cursor: pointer;
+  background: none;
+  border: none;
+  border-radius: 6px;
+  padding: 4px;
+  font-size: 18px;
+  line-height: 1;
+}
+
+.index-module__yHrjsW__modalClose:hover {
+  background: #f3f2ef;
+}
+
+.index-module__yHrjsW__commentsList {
+  flex-direction: column;
+  flex: 1;
+  gap: 14px;
+  padding: 1rem 1.25rem;
+  display: flex;
+  overflow-y: auto;
+}
+
+.index-module__yHrjsW__emptyComments {
+  color: #888;
+  text-align: center;
+  padding: 2rem 0;
+  font-size: 14px;
+}
+
+.index-module__yHrjsW__commentRow {
+  border-bottom: 1px solid #f0f0f0;
+  padding-bottom: 14px;
+}
+
+.index-module__yHrjsW__commentName {
+  color: #000;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.index-module__yHrjsW__commentHandle {
+  color: #888;
+  font-weight: 400;
+}
+
+.index-module__yHrjsW__commentBody {
+  color: #444;
+  margin-top: 4px;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.index-module__yHrjsW__commentInputRow {
+  border-top: 1px solid #e0e0e0;
+  align-items: center;
+  gap: 8px;
+  padding: 1rem 1.25rem;
+  display: flex;
+}
+
+.index-module__yHrjsW__commentInputRow input {
+  background: #fafafa;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  outline: none;
+  flex: 1;
+  height: 40px;
+  padding: 0 1rem;
+  font-size: 13px;
+}
+
+.index-module__yHrjsW__commentInputRow input:focus {
+  background: #fff;
+  border-color: #0a66c2;
+}
+
+.index-module__yHrjsW__commentPostBtn {
+  color: #fff;
+  cursor: pointer;
+  white-space: nowrap;
+  background: #0a66c2;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 18px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.index-module__yHrjsW__commentPostBtn:hover {
+  background: #004182;
+}
+
+/*# sourceMappingURL=frontend_src_pages_dashboard_index_module_css_65f1660e._.single.css.map*/

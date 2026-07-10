@@ -1,0 +1,27 @@
+/* [project]/frontend/src/components/Navbar/style.module.css [client] (css) */
+.style-module__iJorKq__container {
+  padding: 1.2rem;
+}
+
+.style-module__iJorKq__navBar {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.style-module__iJorKq__navBarOptionContainer {
+  display: flex;
+}
+
+.style-module__iJorKq__buttonJoin {
+  color: #fff;
+  cursor: pointer;
+  background: #cd8987;
+  border-radius: 10px;
+  padding-block: .6rem;
+  padding-inline: 1.2rem;
+  font-size: .7rem;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=frontend_src_components_Navbar_style_module_7f92f091.css.map*/

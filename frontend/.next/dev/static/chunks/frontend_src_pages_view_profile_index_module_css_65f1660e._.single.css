@@ -1,0 +1,216 @@
+/* [project]/frontend/src/pages/view_profile/index.module.css [client] (css) */
+.index-module__koB-5G__page {
+  flex-direction: column;
+  gap: 12px;
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 1.5rem;
+  display: flex;
+}
+
+.index-module__koB-5G__heroCard {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.index-module__koB-5G__backdrop {
+  background-image: url("https://images.pexels.com/photos/33844001/pexels-photo-33844001.jpeg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+}
+
+.index-module__koB-5G__heroBody {
+  padding: 0 1.5rem 1.5rem;
+  position: relative;
+}
+
+.index-module__koB-5G__avatar {
+  object-fit: cover;
+  background: #f3f2ef;
+  border: 4px solid #fff;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: -56px;
+  left: 1.5rem;
+}
+
+.index-module__koB-5G__heroActions {
+  justify-content: flex-end;
+  gap: 8px;
+  min-height: 52px;
+  padding-top: .75rem;
+  display: flex;
+}
+
+.index-module__koB-5G__btnConnect {
+  color: #fff;
+  cursor: pointer;
+  background: #0a66c2;
+  border: none;
+  border-radius: 20px;
+  padding: 6px 20px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.index-module__koB-5G__btnConnect:hover {
+  background: #004182;
+}
+
+.index-module__koB-5G__btnPending {
+  color: #666;
+  cursor: default;
+  background: none;
+  border: 1px solid #999;
+  border-radius: 20px;
+  padding: 6px 20px;
+  font-size: 14px;
+}
+
+.index-module__koB-5G__btnMore {
+  color: #0a66c2;
+  cursor: pointer;
+  background: none;
+  border: 1px solid #0a66c2;
+  border-radius: 20px;
+  padding: 6px 18px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.index-module__koB-5G__btnMore:hover {
+  background: #eaf0f9;
+}
+
+.index-module__koB-5G__heroInfo {
+  margin-top: 4.5rem;
+}
+
+.index-module__koB-5G__heroInfo h1 {
+  color: #000;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.index-module__koB-5G__username {
+  color: #666;
+  margin-top: 2px;
+  font-size: 14px;
+}
+
+.index-module__koB-5G__headline {
+  color: #333;
+  margin-top: 6px;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.index-module__koB-5G__sectionCard {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 1.25rem 1.5rem;
+}
+
+.index-module__koB-5G__sectionTitle {
+  color: #000;
+  margin-bottom: 1rem;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.index-module__koB-5G__activityGrid {
+  flex-direction: column;
+  gap: 10px;
+  display: flex;
+}
+
+.index-module__koB-5G__postItem {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  gap: 12px;
+  padding: 10px;
+  display: flex;
+}
+
+.index-module__koB-5G__postThumb {
+  object-fit: cover;
+  border-radius: 6px;
+  flex-shrink: 0;
+  width: 72px;
+  height: 56px;
+}
+
+.index-module__koB-5G__postThumbEmpty {
+  background: #f3f2ef;
+}
+
+.index-module__koB-5G__postBody {
+  color: #555;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  font-size: 13px;
+  line-height: 1.5;
+  display: -webkit-box;
+  overflow: hidden;
+}
+
+.index-module__koB-5G__workList {
+  flex-direction: column;
+  gap: 16px;
+  display: flex;
+}
+
+.index-module__koB-5G__workItem {
+  align-items: flex-start;
+  gap: 12px;
+  display: flex;
+}
+
+.index-module__koB-5G__workIcon {
+  background: #f3f2ef;
+  border-radius: 8px;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  font-size: 20px;
+  display: flex;
+}
+
+.index-module__koB-5G__workTitle {
+  color: #000;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.index-module__koB-5G__workCompany {
+  color: #444;
+  margin-top: 2px;
+  font-size: 13px;
+}
+
+.index-module__koB-5G__workYears {
+  color: #888;
+  margin-top: 2px;
+  font-size: 12px;
+}
+
+@media only screen and (max-width: 600px) {
+  .index-module__koB-5G__rightPanel, .index-module__koB-5G__sidebar {
+    display: none;
+  }
+
+  .index-module__koB-5G__mobileNavBar {
+    display: flex;
+  }
+}
+
+/*# sourceMappingURL=frontend_src_pages_view_profile_index_module_css_65f1660e._.single.css.map*/

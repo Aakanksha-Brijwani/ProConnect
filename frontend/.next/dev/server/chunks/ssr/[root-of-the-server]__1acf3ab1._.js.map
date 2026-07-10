@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 12, "column": 0}, "map": {"version":3,"sources":["file:///E:/LinkdinClone/frontend/src/pages/_app.js"],"sourcesContent":["import { store } from \"@/config/redux/store\";\nimport \"@/styles/globals.css\";\nimport { Provider } from \"react-redux\";\n\nexport default function App({ Component, pageProps }) {\n  return(\n    <Provider store = {store}>\n      <Component {...pageProps} />;\n    </Provider>\n  );\n}\n"],"names":[],"mappings":";;;;;;;;;;AAEA;;;;;;;;;AAEe,SAAS,IAAI,EAAE,SAAS,EAAE,SAAS,EAAE;IAClD,qBACE,qKAAC,yMAAQ;QAAC,OAAS;;0BACjB,qKAAC;gBAAW,GAAG,SAAS;;;;;;YAAI;;;;;;;AAGlC"}}]
+}

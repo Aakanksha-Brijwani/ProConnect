@@ -1,0 +1,104 @@
+/* [project]/frontend/src/layout/DashboardLayout/index.module.css [client] (css) */
+.index-module__UbqSCW__homeContainer {
+  justify-content: center;
+  gap: 2rem;
+  display: flex;
+}
+
+.index-module__UbqSCW__homeContainer__leftBar {
+  flex-direction: column;
+  flex-shrink: 0;
+  align-items: flex-start;
+  gap: 1.2rem;
+  width: 180px;
+  display: flex;
+}
+
+.index-module__UbqSCW__sideBarOption {
+  cursor: pointer;
+  align-items: center;
+  gap: 1.3rem;
+  width: 80%;
+  min-width: 80%;
+  max-width: 80%;
+  margin: 0 auto;
+  font-size: 1.4rem;
+  transition: all .2s;
+  display: flex;
+}
+
+.index-module__UbqSCW__sideBarOption:hover {
+  transform: scale(1.03);
+}
+
+.index-module__UbqSCW__sideBarOption > svg {
+  flex-shrink: 0;
+  width: fit-content;
+  height: 1.4em;
+}
+
+.index-module__UbqSCW__homeContainer_feedContainer {
+  flex: 1;
+  max-width: 900px;
+}
+
+.index-module__UbqSCW__homeContainer_extraContainer {
+  background: #fff;
+  border-radius: 12px;
+  flex-shrink: 0;
+  width: 180px;
+  padding: 1rem;
+}
+
+.index-module__UbqSCW__homeContainer_extraContainer h3 {
+  margin: 0 0 12px;
+  font-size: 1.2rem;
+}
+
+.index-module__UbqSCW__extraContainer_profile {
+  padding: 8px 0;
+}
+
+.index-module__UbqSCW__extraContainer_profile:last-child {
+  border-bottom: none;
+}
+
+.index-module__UbqSCW__extraContainer_profile p {
+  cursor: pointer;
+  margin: 0;
+  font-size: 15px;
+  font-weight: 500;
+  transition: color .2s;
+}
+
+.index-module__UbqSCW__extraContainer_profile p:hover {
+  color: #003b82;
+}
+
+/* [project]/frontend/src/components/Navbar/style.module.css [client] (css) */
+.style-module__iJorKq__container {
+  padding: 1.2rem;
+}
+
+.style-module__iJorKq__navBar {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.style-module__iJorKq__navBarOptionContainer {
+  display: flex;
+}
+
+.style-module__iJorKq__buttonJoin {
+  color: #fff;
+  cursor: pointer;
+  background: #cd8987;
+  border-radius: 10px;
+  padding-block: .6rem;
+  padding-inline: 1.2rem;
+  font-size: .7rem;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=frontend_src_465b04b7._.css.map*/

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///E:/LinkdinClone/frontend/src/layout/UserLayout/index.jsx"],"sourcesContent":["import React from 'react';\r\n\r\nfunction UserLayout({ children }) {\r\n    return (\r\n        <div>\r\n            <NavBarComponent/>\r\n            {children}\r\n        </div>\r\n    );\r\n}\r\n\r\nexport default UserLayout;"],"names":[],"mappings":";;;;;AAAA;;;AAEA,SAAS,WAAW,EAAE,QAAQ,EAAE;IAC5B,qBACI,qKAAC;;0BACG,qKAAC;;;;;YACA;;;;;;;AAGb;uCAEe"}},
+    {"offset": {"line": 33, "column": 0}, "map": {"version":3,"sources":["file:///E:/LinkdinClone/frontend/src/pages/login/index.jsx"],"sourcesContent":["import UserLayout from '@/layout/UserLayout'\r\nimport REact from 'react'\r\n\r\nfunction LoginComponent(){\r\n    return (\r\n        <UserLayout>\r\n\r\n           \r\n            </UserLayout>\r\n    )\r\n}\r\n\r\nexport default LoginComponent"],"names":[],"mappings":";;;;;AAAA;AACA;;;;AAEA,SAAS;IACL,qBACI,qKAAC,qJAAU;;;;;AAKnB;uCAEe"}}]
+}

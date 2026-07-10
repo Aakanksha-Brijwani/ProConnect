@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///E:/LinkdinClone/frontend/src/pages/blog/index.jsx"],"sourcesContent":["import React from \"react\";\r\n\r\nexport default function HomePage(){\r\n    return(\r\n        <div>Home Page</div>\r\n    )\r\n}"],"names":[],"mappings":";;;;;AAAA;;;AAEe,SAAS;IACpB,qBACI,qKAAC;kBAAI;;;;;;AAEb"}}]
+}
